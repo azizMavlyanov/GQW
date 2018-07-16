@@ -1,0 +1,88 @@
+.hero {
+  background-image: url("../images/herobg1.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 320px;
+  .container {
+    text-align: center;
+  }
+}
+
+.hero__search {
+  display: inline-block;
+  width: 1000px;
+  height: 350px;
+  margin-top: 140px;
+  margin-bottom: 12px;
+  background: rgba(#fff, .3);
+}
+
+.hero__header {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background: #9a2027;
+  padding: 24.5px 0;
+  position: relative;
+  &:before {
+    content: "";
+    display: block;
+    background-image: url("../images/ribon-left.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92px;
+    width: 243px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    background-image: url("../images/ribon-right.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92px;
+    width: 243px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.hero__search {
+  height: 311px;
+  position: relative;
+
+  .search-input {
+    width: 950px;
+    height: 84px;
+    padding: 20px;
+    font-size: 20px;
+    border: 3px solid #9a2027;
+    margin-top: 134px;
+    display: inline;
+  }
+
+  .hero-submit {
+    height: 83px;
+    position: absolute;
+    top: 135px;
+    background: #9a2027;
+    color: #fff;
+    right: 24px;
+    width: 102px;
+    border: none;
+    cursor: pointer;
+
+    .fa-search {
+      font-size: 60px;
+    }
+
+  }
+}
+

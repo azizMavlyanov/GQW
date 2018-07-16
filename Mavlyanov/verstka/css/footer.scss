@@ -1,0 +1,22 @@
+.footer {
+  background-image: url("../images/footer-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+  padding-top: 50px;
+
+  .container {
+    @extend %clearfix;
+  }
+}
+
+.pskovgu-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 100px;
+}
+
+.footer__contacts {
+  margin-left: 580px;
+}

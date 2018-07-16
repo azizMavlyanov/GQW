@@ -1,0 +1,22 @@
+//Variables
+
+$footer-height: 216px;
+$container_width: 1200px;
+
+$red: #9a2027;
+$blue: #123762;
+//Layout
+
+@import "normalize";
+@import "font-awesome";
+@import "adjustment";
+
+//Sections
+@import "body";
+@import "header";
+@import "hero";
+@import "about";
+@import "list-of-wrods";
+@import "contact";
+@import "footer";
+

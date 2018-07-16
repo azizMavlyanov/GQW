@@ -1,0 +1,43 @@
+.about {
+  padding: 40px 0;
+
+  .container {
+    @extend %clearfix;
+    color: #ffffff;
+  }
+}
+
+
+.acknowledgement {
+  width: 500px;
+  float: left;
+  background-image: url("../images/header-bg.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+  padding: 25px;
+  color: #5f5b5b;
+  height: 1180px;
+}
+
+.cast {
+  width: 500px;
+  float: right;
+  background-image: url("../images/header-bg.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+  padding: 25px;
+  color: #5f5b5b;
+  height: 1180px;
+}
+
+.acknowledgement__title,.cast__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.acknowledgement__text,.cast__text {
+  font-weight: 600;
+}
+
